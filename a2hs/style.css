@@ -1,3 +1,7 @@
+html {
+  font-size: 1vw;
+}
+
 .add-button {
   position: absolute;
   top: 1px;
