@@ -12,7 +12,7 @@
 
     <title>Rooster Poedercoat</title>
 
-    <link href="style.css" rel="stylesheet">    
+    <link href="style.css" rel="stylesheet">
     <link rel="manifest" href="manifest.webmanifest">
     <script src="index.js" defer></script>
 </head>
@@ -21,13 +21,16 @@
 
     <button class="add-button">Add to home screen</button>
 
-    <div class="mt-1">
-        <h2 class="text-center">Rooster Poedercoat</h2>
-    </div>
+
 
     <!--Navbar-->
-    <div class="sticky-top">
-        <nav class="bg-white">
+    <div class="sticky-top bg-white">
+
+        <div>
+            <h2 class="text-center">Rooster Poedercoat</h2>
+        </div>
+        <!--Navbar Shifts-->
+        <nav>
             <div class="nav nav-tabs justify-content-around" id="nav-tab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-osman-tab" data-toggle="tab" href="#nav-osman" role="tab"
                     aria-controls="nav-osman" aria-selected="true">Osman</a>
@@ -41,7 +44,7 @@
                     aria-controls="nav-all" aria-selected="false">All</a>
             </div>
         </nav>
-    <!--Navbar Months-->
+        <!--Navbar Months-->
         <nav id="navbar-example" class="navbar navbar-light bg-light justify-content-around border-bottom border-primary">
             <ul class="nav nav-pills">
                 <li class="nav-item">
@@ -85,7 +88,6 @@
             </ul>
         </nav>
     </div>
-    <!--StickyTop-->
 
     <!--Rooster Poedercoat-->
     <div class="tab-content mt-1" id="nav-tabContent">
