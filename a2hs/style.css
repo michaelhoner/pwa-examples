@@ -1,7 +1,8 @@
-html {
-  font-size: 3vw;
+@media (max-width: 576px) {
+  html {
+    font-size: 4vw;
+  }
 }
-
 
 .add-button {
   position: absolute;
