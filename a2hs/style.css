@@ -12,6 +12,19 @@ h1 {
   background-color: grey!important;
 }
 
+/* .nav-pills > li > a.active {
+  background-color: grey !important;
+  color: grey !important;
+}
+
+.nav-pills > li > a:hover {
+  color: grey !important;
+}
+
+.nav-link-color {
+  color: grey;
+} */
+
 .add-button {
   position: absolute;
   top: 1px;
