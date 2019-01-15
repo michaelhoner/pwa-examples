@@ -4,6 +4,9 @@
   }
 }
 
+h1 {
+  font-family: 'Paytone One', sans-serif;
+}
 .add-button {
   position: absolute;
   top: 1px;
