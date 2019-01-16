@@ -1,7 +1,7 @@
 {
   "background_color": "black",
   "description": "Rooster Poedercoat afdeling",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
     {
       "src": "icon/fox-icon.png",
