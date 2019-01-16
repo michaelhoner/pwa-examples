@@ -22,16 +22,17 @@
     <button class="add-button">Add to home screen</button>
 
 
-    <!--Navbar-->
-    <div class="sticky-top bg-white">
-        <!--sticky-top-->
-        <div class="logo bg-dark">
+    <!--Navbar--><!--sticky-top-->
+    <div class="fixed-top bg-white">
+        <!--Banner-->        
+        <div class="logo bg-dark" style="height: 75px;">
             <!-- <h2 class="text-center">Rooster Poedercoat</h2> -->
             <img src="img\userlogo2.png" alt="logo">
         </div>
+
         <!--Navbar Shifts-->
         <nav>
-            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+            <div class="nav nav-tabs nav-fill bg-light" id="nav-tab" role="tablist" style="height: 50px;">
                 <a class="nav-item nav-link text-dark active" id="nav-osman-tab" data-toggle="tab" href="#nav-osman" role="tab"
                     aria-controls="nav-osman" aria-selected="true">Osman</a>
                 <a class="nav-item nav-link text-dark" id="nav-gert-tab" data-toggle="tab" href="#nav-gert" role="tab"
@@ -2371,6 +2372,49 @@
             </div>
         </div>
         <!--Gert-->
+        <!--Navbar Months-->
+        <nav id="navbar-example" class="navbar justify-content-around bg-dark border-bottom border-light sticky-top">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#januari">jan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#februari">feb</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#maart">mrt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#april">apr</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mei">mei</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#juni2">jun</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#juli">jul</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#augustus">aug</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#september">sep</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#oktober">okt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#november">nov</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#december">dec</a>
+                    </li>
+                </ul>
+            </nav>
         <div class="tab-pane fade" id="nav-gert" role="tabpanel" aria-labelledby="nav-gert-tab">
             <div data-spy="scroll" data-target="#navbar-example" data-offset="0">
                 <section id="januari">
@@ -3314,7 +3358,7 @@
                         </tbody>
                     </table>
                 </section>
-                <section id="juni">
+                <section id="juni2">
                     <h1 class="text-white bg-dark">Juni</h1>
                     <table class="table table-hover">
                         <tbody>
