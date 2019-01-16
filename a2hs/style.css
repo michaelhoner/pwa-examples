@@ -18,7 +18,7 @@ h1 {
 }
 
 .nav-pills > li > a:hover {
-  color: white !important;
+  color: grey !important;
 }
 
 .nav-pills > li > a {
