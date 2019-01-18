@@ -22,17 +22,31 @@
     <button class="add-button">Add to home screen</button>
 
 
-    <!--Navbar-->
-    <!--sticky-top-->
-    <div class="fixed-top bg-dark">
-        <!--Banner-->
-        <div class="logo" style="height: 75px;">
+    <!--Navbar--><!--sticky-top-->
+    <div class="fixed-top bg-white">
+        <!--Banner-->        
+        <div class="logo bg-dark" style="height: 75px;">
             <!-- <h2 class="text-center">Rooster Poedercoat</h2> -->
             <img src="img\userlogo2.png" alt="logo">
         </div>
 
+        <!--Navbar Shifts-->
+        <nav>
+            <div class="nav nav-tabs nav-fill bg-light" id="nav-tab" role="tablist" style="height: 50px;">
+                <a class="nav-item nav-link text-dark active" id="nav-osman-tab" data-toggle="tab" href="#nav-osman" role="tab"
+                    aria-controls="nav-osman" aria-selected="true">Osman</a>
+                <a class="nav-item nav-link text-dark" id="nav-gert-tab" data-toggle="tab" href="#nav-gert" role="tab"
+                    aria-controls="nav-gert" aria-selected="false">Gert</a>
+                <a class="nav-item nav-link text-dark" id="nav-cengiz-tab" data-toggle="tab" href="#nav-cengiz" role="tab"
+                    aria-controls="nav-cengiz" aria-selected="false">Cengiz</a>
+                <a class="nav-item nav-link text-dark" id="nav-kubilay-tab" data-toggle="tab" href="#nav-kubilay" role="tab"
+                    aria-controls="nav-kubilay" aria-selected="false">Kubilay</a>
+                <a class="nav-item nav-link text-dark" id="nav-all-tab" data-toggle="tab" href="#nav-all" role="tab"
+                    aria-controls="nav-all" aria-selected="false">All</a>
+            </div>
+        </nav>
         <!--Navbar Months-->
-        <nav id="navbar-months" class="navbar justify-content-around border-top border-bottom border-light">
+        <nav id="navbar-months" class="navbar justify-content-around bg-dark border-bottom border-light">
             <ul class="nav nav-pills">
                 <li class="nav-item">
                     <a class="nav-link" href="#januari">jan</a>
@@ -74,23 +88,7 @@
                 </li>
             </ul>
         </nav>
-        <!--Navbar Shifts-->
-        <nav>
-            <div class="nav nav-tabs nav-fill bg-light mt-1" id="nav-tab" role="tablist" style="height: 50px;">
-                <a class="nav-item nav-link text-dark active" id="nav-osman-tab" data-toggle="tab" href="#nav-osman"
-                    role="tab" aria-controls="nav-osman" aria-selected="true">Osman</a>
-                <a class="nav-item nav-link text-dark" id="nav-gert-tab" data-toggle="tab" href="#nav-gert" role="tab"
-                    aria-controls="nav-gert" aria-selected="false">Gert</a>
-                <a class="nav-item nav-link text-dark" id="nav-cengiz-tab" data-toggle="tab" href="#nav-cengiz" role="tab"
-                    aria-controls="nav-cengiz" aria-selected="false">Cengiz</a>
-                <a class="nav-item nav-link text-dark" id="nav-kubilay-tab" data-toggle="tab" href="#nav-kubilay" role="tab"
-                    aria-controls="nav-kubilay" aria-selected="false">Kubilay</a>
-                <a class="nav-item nav-link text-dark" id="nav-all-tab" data-toggle="tab" href="#nav-all" role="tab"
-                    aria-controls="nav-all" aria-selected="false">All</a>
-            </div>
-        </nav>
     </div>
-
 
     <!--Rooster Poedercoat-->
     <div class="tab-content" id="nav-tabContent">
